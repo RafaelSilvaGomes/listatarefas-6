@@ -84,6 +84,6 @@ public class WebConfig implements WebMvcConfigurer {
 
 1. addMapping("/**"): Faz a regra valer para todos os endereços da API.
 
-2. allowedOrigins("http://localhost:5173"): Essa é a parte mais importante. Ela manda o backend avisar o navegador que o localhost:5173 (o nosso Vue) tem permissão para fazer chamadas.
+2. allowedOrigins("http://localhost:5173"): Ela manda o backend avisar o navegador que o localhost:5173 tem permissão para fazer chamadas.
 
 3. allowedMethods(...): Libera os métodos HTTP que o frontend vai usar (GET, POST, etc.).
